@@ -21,7 +21,8 @@ function deleteDigit(n) {
         return currentValue;
       }
       return acc;
-    }, 0);
+    },
+    0);
 }
 
 module.exports = deleteDigit;
